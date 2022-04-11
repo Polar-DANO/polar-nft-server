@@ -1,0 +1,63 @@
+{
+  "name": "arise-adapters-trivago-fastconnect",
+  "version": "0.1.0",
+  "description": "Arise Trivago FastConnect adapter",
+  "author": "Loïc Payol <loic@arise.travel>",
+  "private": true,
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc --project tsconfig.build.json",
+    "format": "eslint --fix",
+    "start": "link-module-alias && node -r tsconfig-paths/register dist/index.js",
+    "start:dev": "npm run watch-ts",
+    "watch-ts": "ts-node-dev -r tsconfig-paths/register --watch **/*.json src/index.ts",
+    "lint": "eslint \"{src}/**/*.ts\" --fix",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "@types/koa": "^2.13.4",
+    "@types/koa__cors": "^3.1.1",
+    "@types/koa-bodyparser": "^4.3.3",
+    "@types/koa-compose": "^3.2.5",
+    "@types/koa-json": "^2.0.20",
+    "@types/koa-router": "^7.4.4",
+    "@types/node": "^16.6.1",
+    "@types/pretty-hrtime": "^1.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
+    "concurrently": "^6.2.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2",
+    "ts-jest": "^27.0.5",
+    "ts-node": "^10.2.0",
+    "ts-node-dev": "^1.1.8",
+    "tsconfig-paths": "^3.10.1",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@koa/cors": "^3.3.0",
+    "decoders": "^2.0.0",
+    "dotenv": "^10.0.0",
+    "ethers": "^5.6.2",
+    "itertools": "^1.7.0",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-compose": "^4.1.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^10.0.0",
+    "link-module-alias": "^1.2.0",
+    "nodemon": "^2.0.12",
+    "pretty-hrtime": "^1.0.3",
+    "rimraf": "^3.0.2",
+    "tslog": "^3.2.1"
+  },
+  "_moduleAliases": {
+    "src": "dist"
+  }
+}

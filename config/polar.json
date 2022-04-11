@@ -1,0 +1,88 @@
+{
+  "avaxRpc": {
+    "type": "jsonRpc",
+    "url": "https://api.avax.network/ext/bc/C/rpc"
+  },
+  "addresses": {
+    "nodeNft": "0x0217485Eb50BBd886b14F7Ba5ecD0F03d3069779",
+    "luckyboxNft": "0x69E7ca9f079a8C6258A15E2B46bbD95791F39E4a",
+    "marketplace": "0xb8656Cf6f863eC38869cdcdB1f9E6E17608DaF20",
+    "nodeTypes": {
+      "Fuji": "0xB43B8E66AC436B03b74Bcc3De7fb0aF11bebE800",
+      "Mont Blanc": "0xad22C564ce810Ae8654A0f17AfB978F99B26D3bA",
+      "Kilimanjaro": "0x4e66F71E5035f82502E25c7DC95074868160F966",
+      "Ushuaia": "0x3f3E8005c4146507ae0e01b83538311Fa2fcDB70",
+      "Everest": "0x48317b7eBA0e0334272f4b7C270cD5dE121a7866"
+    }
+  },
+  "images": {
+    "node": {
+      "Fuji": "https://ipfs.io/ipfs/QmPL9nCnvhH7bxPmnBPVbqoTUbYJJBp6wKuFgZUCQ6YE85?filename=FUJI%20FIXE.jpg",
+      "Fuji Gold": "https://ipfs.io/ipfs/QmQX5yhBcZLMiDUQuhqkpg4eyGyUSJEDpJpxxxJ5dppCcY?filename=FUJI%20GOLD%20FIX.png",
+      "Fuji Silver": "https://ipfs.io/ipfs/QmQtUohkqRZdPFHxirW2sAYj4z8EDgg5Rv5sCskfdB2zFV?filename=FUJI%20SILVER%20FIX.png",
+      "Fuji Diamond": "https://ipfs.io/ipfs/QmWL2nxLPPNjKyYCnY3cEMgNJyczf1JiDmmCTsbxaaNrUv?filename=FUJI%20DIAMOND.png",
+      "Fuji Emerald": "https://ipfs.io/ipfs/QmWeu2kBDLiYDTp9biU3x43C1UP8wPvCFRSVHRDu9tvD47?filename=FUJI%20EMERALD.png",
+      "Mont Blanc": "https://ipfs.io/ipfs/QmY4qYu8jJQKzdNghzNsSdovVacyv9qEAeekHLPfwMCPRW?filename=MONT%20BLANC%20FIXE.jpg",
+      "Mont Blanc Gold": "https://ipfs.io/ipfs/QmWEhtsBCGnQRnxpERT45HqqyMZ55gAhM3coAv5p9QdGP7?filename=MONT%20BLANC%20GOLD.png",
+      "Mont Blanc Silver": "https://ipfs.io/ipfs/QmUG9AoSDgWaKy7sLSg2BU2ezqQaokFSndXpfMWUbzw5pS?filename=MONT%20BLANC%20SILVER.png",
+      "Mont Blanc Diamond": "https://ipfs.io/ipfs/QmYcy27CYwzACHYQALqCoWo67YU1ekvyDrPce59G5GKAKX?filename=MONT%20BLANC%20DIAMOND.png",
+      "Mont Blanc Emerald": "https://ipfs.io/ipfs/QmTeMwVCQfTmkowyyDfpBqzUaJNdjEtQE7GM4zEMJn6GmB?filename=MONT%20BLANC%20EMERALD.png",
+      "Kilimanjaro": "https://ipfs.io/ipfs/QmcStw17F2khoaZCJs32JNL8E7MgpSsW1xRsiYGf8mvgYR?filename=KILIMANDJARO.jpg",
+      "Kilimanjaro Gold": "https://ipfs.io/ipfs/QmfHMFzAJixrLB1kSUMrRmGaHe1GdzFYDrWBpywCHceQcK?filename=KILIMANDJARO%20GOLD.png",
+      "Kilimanjaro Silver": "https://ipfs.io/ipfs/QmYwDwMinQaX2eMTkK4cYTLaqGagVACUzg7NWvZov7gpo3?filename=KILIMANDJARO%20SILVER.png",
+      "Kilimanjaro Diamond": "https://ipfs.io/ipfs/QmUGwFd51H72GScyGUMBVK8ZQjXpNTvuxtBgADPSEmrfDh?filename=KILIMANDJARO%20DIAMOND.png",
+      "Kilimanjaro Emerald": "https://ipfs.io/ipfs/QmZbgYyNkhfnsxHiskPSiGoFdLKf5eCVoaD6YZXtyVVKTB?filename=KILIMANDJARO%20EMERALD.png",
+      "Ushuaia": "https://ipfs.io/ipfs/QmdwE4ZbMzKUR1CHP2cbCPitnccChqiaEEGsyuMx4kn1np?filename=USHUAIA%20RENDER0133.jpg",
+      "Ushuaia Gold": "https://ipfs.io/ipfs/QmdwE4ZbMzKUR1CHP2cbCPitnccChqiaEEGsyuMx4kn1np?filename=USHUAIA%20RENDER0133.jpg",
+      "Ushuaia Silver": "https://ipfs.io/ipfs/QmdwE4ZbMzKUR1CHP2cbCPitnccChqiaEEGsyuMx4kn1np?filename=USHUAIA%20RENDER0133.jpg",
+      "Ushuaia Diamond": "https://ipfs.io/ipfs/QmdwE4ZbMzKUR1CHP2cbCPitnccChqiaEEGsyuMx4kn1np?filename=USHUAIA%20RENDER0133.jpg",
+      "Ushuaia Emerald": "https://ipfs.io/ipfs/QmdwE4ZbMzKUR1CHP2cbCPitnccChqiaEEGsyuMx4kn1np?filename=USHUAIA%20RENDER0133.jpg",
+      "Everest": "https://ipfs.io/ipfs/QmNkSYLUNGdiGfZjoC68C5qth9PKkZFkge9m5xtBhiH27L?filename=EVEREST%20FIXE.jpg",
+      "Everest Gold": "https://ipfs.io/ipfs/QmNpaPCFVtb7YX6zQCXnFmdwjJA76NQcUiMJBkFxJWHBhE?filename=EVEREST%20GOLD0052.jpg",
+      "Everest Silver": "https://ipfs.io/ipfs/QmduH5WzjGJyyqJ6zZfH9zTtBSRB19ZA2azg6XWdsuuuN7?filename=EVEREST%20SILVER0126.jpg",
+      "Everest Diamond": "https://ipfs.io/ipfs/QmZoC2Fm1yzr8TAzmtG6DxMt3bBrpRYpYrgxmQjNS1AybW?filename=EVEREST%20DIAMOND%20FIX.png",
+      "Everest Emerald": "https://ipfs.io/ipfs/QmU1cXDu26KtZ2Yuqvo8ypDG1Ws2y6XSMM7vMkaPebHUJy?filename=EVEREST%20EMERAULD%20FIX.png"
+    },
+    "luckybox": {
+      "Neutral Lucky Box": "https://ipfs.io/ipfs/QmWaScFo2DDRG2cpfK8ZUqtctSZRZpPcpBLkUXmkfMHi15?filename=LUCKY%20BOX%20LVL%201.jpg",
+      "Fresh Lucky Box": "https://ipfs.io/ipfs/QmQTSCm733YSLPC3rX4TRNJxGbD8PqFgffnX48q9zBjLNL?filename=LUCKY%20BOX%20LVL%202.png",
+      "Icy Lucky Box": "https://ipfs.io/ipfs/QmdqDRRARn3Hc7RkCSAbcbXZ83Jyfmd7aHaQ4WpRbd7NzA?filename=LUCKY%20BOX%20LVL%203.jpg",
+      "Placeholder Lucky Box": "https://ipfs.io/ipfs/QmRPDrU7F55r389nzbky5GaKqBJnhWvxsXJJ5XTvBicpVx?filename=LUCKY%20BOX%20LVL%204.png"
+    }
+  },
+  "videos": {
+    "node": {
+      "Fuji": "https://ipfs.io/ipfs/QmbqaNCGuqnMzzLq5pB8x75nWNeY55W7TBqfjwyt14w51M?filename=FUJI%20ANIM.mp4",
+      "Fuji Gold": "https://ipfs.io/ipfs/QmQAX2jFu759JypmUV4ovErJDBRsecM9s1Nv6gpaSwyFhE?filename=FUJI%20GOLD%20ANIM.mp4",
+      "Fuji Silver": "https://ipfs.io/ipfs/QmcRXy9fthbRwH3E1DnwMPLmV5akHJMtyCjBemNeU6CrN8?filename=FUJI%20SILVER%20ANIM.mp4",
+      "Fuji Diamond": "https://ipfs.io/ipfs/QmecukK7ENVSBcyP7sYoH7cWocgPE3FcL4FtcAaHNx7KZn?filename=FUJI%20DIAMOND%20ANIM.mp4",
+      "Fuji Emerald": "https://ipfs.io/ipfs/QmPnkdSsQ4im493ZsVSomUua7YfmmWURsiU6UpiUfZjwPf?filename=FUJI%20EMERALD%20ANIM.mp4",
+      "Mont Blanc": "https://ipfs.io/ipfs/QmSm4mzJQmy97oqnN1jbxYXMQ2GE1TGz2dQsYucMivLyLV?filename=MONT%20BLANC%20ANIM.mp4",
+      "Mont Blanc Gold": "https://ipfs.io/ipfs/QmPnP5c9rGTQFr7NHuPKRpT1UgLLnLWE8WQ7UaJt7km7zN?filename=MONT%20BLANC%20GOLD%20ANIM.mp4",
+      "Mont Blanc Silver": "https://ipfs.io/ipfs/QmWzDXeHSwxF9HqdEC7Akqz8Qsfrbp4XiJSi8tTAV2b9Vw?filename=MONT%20BLANC%20SILVER%20ANIM.mp4",
+      "Mont Blanc Diamond": "https://ipfs.io/ipfs/QmSSBrzbG4wo1bmpMmf48fHPCG25vTuXGV2wZSFEff5wPg?filename=MONT%20BLANC%20DIAMOND%20ANIM.mp4",
+      "Mont Blanc Emerald": "https://ipfs.io/ipfs/QmPBxXEeZ8gchqUZksNSiVf6Q6eEJH7Dumk1P7yoCuzbDW?filename=MONT%20BLANC%20EMERALD%20ANIM.mp4",
+      "Kilimanjaro": "https://ipfs.io/ipfs/QmZ8Xo2w264gAVsBf2JuZd96juN4bAdp5S5GG8wBB6cEVe?filename=KILIMANDJARO%20ANIM.mp4",
+      "Kilimanjaro Gold": "https://ipfs.io/ipfs/QmUY4sghC1M6kCtS7AUokPXYifB9CFeBxaa3phixYDNQPL?filename=KILIMANDJARO%20GOLD%20ANIM.mp4",
+      "Kilimanjaro Silver": "https://ipfs.io/ipfs/QmaTEPNMdXf48CjS9b7oCHVxE1GPujqzqMd86XhDkADyMB?filename=KILIMANDJARO%20SILVER%20ANIM.mp4",
+      "Kilimanjaro Diamond": "https://ipfs.io/ipfs/QmVt8KoECmr9MGzaAEcXi4cUosShLKSyL2dERqak8FnMDx?filename=KILIMANDJARO%20DIAMOND%20ANIM.mp4",
+      "Kilimanjaro Emerald": "https://ipfs.io/ipfs/QmRca3JjuchSP4WVGSSrfRQnGjekojynnRg7AUzZ96wZ6u?filename=KILIMANDJARO%20EMERALD%20ANIM.mp4",
+      "Ushuaia": "https://ipfs.io/ipfs/QmdotjoP4x6CLFsSvKY96uTCGTwWmEURvxSuPMfdy4LxX4?filename=USHUAIA%20ANIM.mp4",
+      "Ushuaia Gold": "https://ipfs.io/ipfs/Qmex2tmAVtPx9GK2tQiYGHqvcH4a8Qy9PEeUb4V57CPRs8?filename=USHUAIA%20GOLD%20RENDER.mp4",
+      "Ushuaia Silver": "https://ipfs.io/ipfs/QmNbzyXdVeGgRAo67mVJi63NHgKt28s25t73TPhiGrT1jH?filename=USHUAIA%20SILVER%20ANIM.mp4",
+      "Ushuaia Diamond": "https://ipfs.io/ipfs/QmcCTBCXLRCKTb4afqQPB18C3DbUbZNZEjoEis3nLWtT24?filename=USHUAIA%20DIAMOND%20ANIM.mp4",
+      "Ushuaia Emerald": "https://ipfs.io/ipfs/QmfWwDk4HKzJjHQaHrCFsmor9cxvXnrH7rBwSpAnApc5B6?filename=USHUAIA%20EMERALD%20ANIM.mp4",
+      "Everest": "https://ipfs.io/ipfs/Qmf9Gwn9oVaCfj4H5cRzxhwGiAMxHbEX5wVFAGdE7yBXoi?filename=EVEREST%20ANIM.mp4",
+      "Everest Gold": "https://ipfs.io/ipfs/QmVNKXRko89gcWEP8BpKpicNtLJhdhQg5Bgge4PBV6hxQD?filename=EVEREST%20GOLD%20ANIMATION.mp4",
+      "Everest Silver": "https://ipfs.io/ipfs/QmUhrTPwdLA37a9GPXLY9edUQ97YD9h2PrfE4kE9arxmup?filename=EVEREST%20SILVER%20ANIMATION.mp4",
+      "Everest Diamond": "https://ipfs.io/ipfs/Qmf2GvgdHuPyLLs7GbpnFfak6GjUNrDSgoy64pT4ixYhFC?filename=EVEREST%20DIAMANT%20ANIM.mp4",
+      "Everest Emerald": "https://ipfs.io/ipfs/QmUkG1NWfVQ3fzDs9e9uCepd6WM72XLHbbbvbfcYbh7v3P?filename=EVEREST%20EMERAULD%20ANIM.mp4"
+    },
+    "luckybox": {
+      "Neutral Lucky Box": "https://ipfs.io/ipfs/QmafoJdSbXYwdEePpWFExoJW6zEBm1CTqU9q4dcWAbiXnk?filename=LUCKY%20BOX%20LVL%201%20ANIM.mp4",
+      "Fresh Lucky Box": "https://ipfs.io/ipfs/QmSyfCAmS9brdYqnyrjYDpM5xcD1juF7qDdttEvx19LbhE?filename=LUCKY%20BOX%20LVL%202%20ANIM.mp4",
+      "Icy Lucky Box": "https://ipfs.io/ipfs/QmSYMDBGtsAzNbAoCmirYoimdexLotcpaqRvg5u9XiWiDe?filename=LUCKY%20BOX%20LEVEL%203%20RENDER%203.mp4",
+      "Placeholder Lucky Box": "https://ipfs.io/ipfs/QmaPS8ETLAujaF97EvhLfNe4XaWYzvKnDsMn4bCLJn3csx?filename=LUCKY%20BOX%20LEVEL%204%20GLACIAL.mp4"
+    }
+  }
+}
